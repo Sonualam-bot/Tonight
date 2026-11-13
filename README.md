@@ -101,7 +101,7 @@ The server owns the game state instead of each browser, for four reasons:
 | Real-time | WebSocket | Two-way, low-latency updates for presence, locks and reveals |
 | Server | Node.js + TypeScript | One language across client and server, so message types can be shared |
 | Storage | Lightweight database for pairs and game state | Game state must outlive a server restart |
-| Mobile | Flutter client | After the web version proves the flow |
+| Mobile | React Native or Flutter, decided later | React Native reuses the shared TypeScript code; Flutter only if it matches the team's stack |
 
 ---
 
@@ -132,7 +132,7 @@ The server owns the game state instead of each browser, for four reasons:
 
 ## Roadmap
 
-- [ ] Project scaffold (client + server, shared message types)
+- [x] Project scaffold (client + server, shared message types)
 - [ ] Pairing with an invite code
 - [ ] Leave pair, with game cancelled and history hidden
 - [ ] Partner presence over WebSocket
@@ -143,4 +143,4 @@ The server owns the game state instead of each browser, for four reasons:
 - [ ] Deploy and live demo link
 - [ ] AI-generated questions from both partners' preferences, with a fixed question bank as fallback
 - [ ] Daily unlock and "come back tomorrow"
-- [ ] Flutter client
+- [ ] Mobile client (React Native or Flutter)
