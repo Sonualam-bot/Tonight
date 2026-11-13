@@ -1,0 +1,30 @@
+{
+  "name": "tonight",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "shared",
+    "server",
+    "client"
+  ],
+  "description": "**One small game for two people, every night, even when they can't be in the same place.**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sonualam-bot/Tonight.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sonualam-bot/Tonight/issues"
+  },
+  "homepage": "https://github.com/Sonualam-bot/Tonight#readme",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
