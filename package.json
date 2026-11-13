@@ -10,7 +10,7 @@
   "description": "**One small game for two people, every night, even when they can't be in the same place.**",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "typecheck": "npm run typecheck --workspaces --if-present"
   },
   "repository": {
     "type": "git",
