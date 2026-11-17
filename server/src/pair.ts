@@ -8,6 +8,8 @@ export type Pair = {
   id: string;
   /** Code Partner A shares so Partner B can join. */
   inviteCode: string;
+  /** When the invite code stops working. */
+  inviteCodeExpiresAt: Date;
   status: PairStatus;
   /** Token of the player who created the invite. */
   playerAToken: string;
